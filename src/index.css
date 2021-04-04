@@ -36,6 +36,22 @@ main {
   background: var(--white);
 }
 
+.highlight {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding-left: 4px;
+}
+
+.highlight::selection {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.skill-item {
+  border: 1px solid var(--primary-color);
+  background: linear-gradient(to right, rgba(44, 44, 44,.4), rgba(439,239,239,.2));
+}
+
 .title-primary {
   font-size: 2rem;
   font-weight: 700;
@@ -79,20 +95,65 @@ main {
   font-size: 1.4rem;
 }
 
+.py-2 {
+  padding: 2px 0;
+}
+
+.px-4 {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.px-6 {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.rounded {
+  border-radius: 100px;
+}
+
+.m-2 {
+  margin: 2px;
+}
+
+.m-4 {
+  margin: 4px;
+}
+
+.my-2 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.my-4 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.my-6 {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
 .mx-2 {
-  margin: 0 2px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .mx-4 {
-  margin: 0 4px;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 
 .mx-6 {
-  margin: 0 6px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .mx-8 {
-  margin: 0 8px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .mr-4 {

@@ -1,9 +1,10 @@
 import React from 'react'
+import PrimaryHeading from './PrimaryHeading'
 
 const EducationalInfo = ({data}) => {
     return (
         <div className="section">
-            <h2 className="primary-heading border-b-2">Education</h2>
+            <PrimaryHeading title="Education and Qualification" />
             <ul className="skills-list">
                 {
                     data?.map((item, index) => (

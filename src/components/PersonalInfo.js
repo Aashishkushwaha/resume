@@ -1,15 +1,16 @@
 import React from 'react'
+import PrimaryHeading from './PrimaryHeading'
 
 const PersonalInfo = ({data}) => {
     const { personalInfo, github, linkedIn } = data
     return (
         <div className="section">
-            <h2 className="primary-heading border-b-2">Personal Information</h2>
+            <PrimaryHeading title="Personal Information" />
             <ul className="skills-list">
                 {
                     linkedIn && (
                         <li>
-                            <strong className="mr-4 fs-12">LinkedIn : </strong>
+                            <strong className="mr-4">LinkedIn : </strong>
                             <span>
                                 <a className="email" target="_blank" rel="noreferrer" href={linkedIn?.url}>{linkedIn?.username}</a> ({linkedIn?.url})
                             </span>
@@ -19,7 +20,7 @@ const PersonalInfo = ({data}) => {
                 {
                     github && (
                         <li>
-                            <strong className="mr-4 fs-12">Github : </strong>
+                            <strong className="mr-4">Github : </strong>
                             <span>
                                 <a className="email" target="_blank" rel="noreferrer" href={github?.url}>{github?.username}</a> ({github?.url})
                             </span>
@@ -29,7 +30,7 @@ const PersonalInfo = ({data}) => {
                 {
                     Object.entries(personalInfo)?.map(([key, value]) => (
                         <li key={key}>
-                            <strong className="mr-4 fs-12">{key} : </strong>
+                            <strong className="mr-4">{key} : </strong>
                             <span>{value}</span>
                         </li>
                     ))

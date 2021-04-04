@@ -3,7 +3,7 @@ import React from 'react'
 const WorkExperience = ({data}) => {
     return (
         <div className="section">
-            <h2 className="primary-heading border-b-2">Work Experience</h2>
+            <h2 className="primary-heading border-b-2 highlight">Work Experience</h2>
             {
                 data.map((item, index) => (
                     <div key={index} className="experience-info">

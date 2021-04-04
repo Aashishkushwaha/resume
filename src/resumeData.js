@@ -5,7 +5,7 @@ export const RESUME_DATA = {
         address: "Rathi Complex, Sukhsagar Nagar, Pune - 411046",
         contact: "+91 - 7709609778",
         selfInfo: `
-            3.4 years experienced Senior Software Engineer highly skilled in software development. Hightly motivated, optimist, team player & an 
+            3.4 years experienced Senior Software Engineer highly skilled in software development. highly motivated, optimist, team player & an 
             individual contributor. Across the complete development life cycle of a product. Adept at end to end software design & 
             development including requirement gathering, documentation, infrastructure setup, coding & unit & integration testing. 
             Handles complex project management & coordination work very efficiently to deliver results. 
@@ -13,13 +13,13 @@ export const RESUME_DATA = {
     },
     workExperience: [
         {
-            companyName: "Mindtree Pvt. Ltd",
+            companyName: "Mindtree Pvt. Ltd.",
             startDate: "May 2020",
             endDate: "Present",
             location: "Pune",
             experienceInfo: [
                 'Worked as a frontend developer on multiple projects, Contributed to the project as an individual as well as a team player.',
-                'Used reactjs javascript library to createy hightly interactive user interfaces.',
+                'Used reactjs javascript library to createy highly interactive user interfaces.',
                 'Leveraged the knowledge of modern technologies to deliver the product as per the business requirement.',
                 'Used the reduxjs library for maintaining the state of the project.',
                 'Used the Material-UI library for the solution for creating the responsive & interactive User Interface.',
@@ -28,13 +28,13 @@ export const RESUME_DATA = {
             ] 
         },
         {
-            companyName: "Infosys Pvt. Ltd",
-            startDate: "Mar 2020",
-            endDate: "Dec 2017",
+            companyName: "Infosys Pvt. Ltd.",
+            startDate: "Dec 2017",
+            endDate: "Mar 2020",
             location: "Pune",
             experienceInfo: [
                 'Got trained on python fundamentals & OOPS concepts.',
-                'Used javascript & jQuery to createy hightly interactive user interfaces.',
+                'Used javascript & jQuery to createy highly interactive user interfaces.',
                 'Leveraged the knowledge of modern technologies to deliver the product as per the business requirement.',
                 'Learned the reactjs library to create highly performant & interactive User Interface.',
                 'Used HTML5, CSS3 & Responsive Web Design to create fluid UI.',
@@ -47,8 +47,8 @@ export const RESUME_DATA = {
         'Libraries/Frameworks': [ 'Reactjs', 'jQuery', 'Node.js', 'Express.js' ],
         'Databases': [ 'MongoDB', 'PostgreSQL' ],
         'OS': [ 'Mac OS', 'Windows', 'Linux' ],
-        'Version Control': ['Git', 'Github', 'BitBucket'],
-        'Other': [ 'HTML5', 'CSS3', 'Responsive Web Design', 'SCSS', 'Socket.io', 'REST API', 'Progressive Web App (PWA), Redux-Toolkit' ]
+        'Version Control': ['Git', 'Github'],
+        'Other': [ 'HTML5', 'CSS3', 'SCSS', 'Socket.io', 'REST API', 'Redux-Toolkit', 'Responsive Web Design', 'Progressive Web App (PWA)' ]
     },
     educationalInfo: [
         {
@@ -67,8 +67,8 @@ export const RESUME_DATA = {
         },
     ],
     honorsAndAchievements: [
-        'Won 2 times spot on award.',
-        'Won 1 time Hats-off award for my work.',
+        'Received 2 times spot on award.',
+        'Received 1 time Hats-off award for my work.',
         'Stood at first place in bachelors degree in college.'
     ],
     personalInfo: {

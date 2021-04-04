@@ -1,14 +1,15 @@
 import React from 'react'
+import PrimaryHeading from './PrimaryHeading'
 
 const HonorsAndAchievements = ({data}) => {
     return (
         <div className="section">
-            <h2 className="primary-heading border-b-2">Honors and Achievements</h2>
+            <PrimaryHeading title="Honors and Achievements" />
             <ul className="skills-list">
                 {
                     data?.map((item, index) => (
                         <li key={index}>
-                            <span className="fs-12">{item}</span>
+                            <span>{item}</span>
                         </li>
                     ))
                 }
