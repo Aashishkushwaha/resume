@@ -8,7 +8,23 @@
   box-sizing: border-box;
 }
 
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 32px;
+	height: 32px;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+
+
 :root {
+  /* --primary-color: #FF9944; */
+  /* --primary-color: #FC6076; */
   --primary-color: #2c2c2c;
   --white: #ffffff;
 }
@@ -49,7 +65,7 @@ main {
 
 .skill-item {
   border: 1px solid var(--primary-color);
-  background: linear-gradient(to right, rgba(44, 44, 44,.4), rgba(439,239,239,.2));
+  /* background: linear-gradient(to right, rgba(44, 44, 44,.4), rgba(439,239,239,.2)); */
 }
 
 .title-primary {
@@ -208,8 +224,25 @@ main {
   font-size: .85rem;
 }
 
-.company-joining-info {
-
+.theme-box {
+  height: 40px;
+  width: 40px;
+  border: 2px solid var(--white);
+  position: fixed;
+  bottom: 1.6rem;
+  right: 1.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px var(--primary-color);
+}
+.theme-box #theme-box-input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {

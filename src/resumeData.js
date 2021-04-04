@@ -44,10 +44,10 @@ export const RESUME_DATA = {
     ],
     skillsInfo: {
         'Programming Languages': [ 'JavaScript', 'Core Java', 'C', 'C++' ],
-        'Libraries/Frameworks': [ 'Reactjs', 'Redux', 'React-Router', 'jQuery', 'Node.js', 'Express.js' ],
+        'Frameworks/Libraries': [ 'Reactjs', 'Redux', 'React-Router', 'jQuery', 'Node.js', 'Express.js', 'Pupeteer.js' ],
         'Databases': [ 'MongoDB', 'PostgreSQL' ],
         'OS': [ 'Mac OS', 'Windows', 'Linux' ],
-        'Version Control': ['Git', 'Github'],
+        'Tools': ['Git', 'Github', 'Postman', 'Figma', 'Visual Code Studio'],
         'Other': [ 'HTML5', 'CSS3', 'SCSS', 'Socket.io', 'REST API', 'Redux-Toolkit', 'Responsive Web Design', 'Progressive Web App (PWA)' ]
     },
     educationalInfo: [

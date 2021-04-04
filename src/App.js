@@ -3,6 +3,7 @@ import HeaderComponent from './components/HeaderComponent'
 import HonorsAndAchievements from './components/HonorsAndAchievements'
 import PersonalInfo from './components/PersonalInfo'
 import SkillsInfo from './components/SkillsInfo'
+import ThemeComponent from './components/ThemeComponent'
 import WorkExperience from './components/WorkExperience'
 import { RESUME_DATA } from './resumeData'
 
@@ -11,6 +12,7 @@ const App = () => {
 
   return (
     <main>
+      <ThemeComponent />
       <HeaderComponent data={self}/>
       <WorkExperience data={workExperience}/>
       <SkillsInfo data={skillsInfo}/>
