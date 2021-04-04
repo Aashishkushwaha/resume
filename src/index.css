@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #2c2c2c;
+  --white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  color: var(--primary-color);
+  background-color: #f1f1f1;
+}
+
+::selection {
+  color: var(--white);
+  background: var(--primary-color)
+}
+
+main {
+  max-width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1rem 1.6rem;
+  background: var(--white);
+}
+
+.title-primary {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.icon {
+  margin: 0px 4px;
+  font-size: .7rem;
+}
+
+.contact-info > * {
+  font-size: .85rem;
+  padding: 0 .4rem;
+  font-weight: 500;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.email {
+  color: inherit;
+  text-decoration-color: transparent;
+}
+.email:hover {
+  text-decoration-color: inherit;
+}
+
+.self-info {
+  margin: .8rem 0 0rem;
+  font-size: .9rem;
+}
+
+.primary-heading {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.mx-2 {
+  margin: 0 2px;
+}
+
+.mx-4 {
+  margin: 0 4px;
+}
+
+.mx-6 {
+  margin: 0 6px;
+}
+
+.mx-8 {
+  margin: 0 8px;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.fs-8 {
+  font-size: 8px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-16 {
+  font-size: 1rem;
+}
+
+.section {
+  margin: .6rem 0;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.border-b-2 {
+  border-bottom: 2px inset var(--primary-color);
+}
+
+.experience-info {
+  margin: .4rem 0;
+}
+
+.company-title {
+  font-size: 1.2rem;
+  margin-bottom: .2rem;
+}
+
+.experience-description-list {
+  margin-left: 1.5rem;
+  font-size: .85rem;
+}
+
+.skills-list {
+  margin: .4rem 0;
+  margin-left: 1.5rem;
+  font-size: .85rem;
+}
+
+.company-joining-info {
+
+}
+
+@media screen and (max-width: 600px) {
+    main {
+      padding: .5rem;
+    }
+
+    .contact-info {
+      flex-direction: column;
+    }
+
+    .company-joining-info {
+      display: block;
+      margin: -5px 0 5px 20px;
+    }
+
+    .self-info {
+      font-size: .8rem;
+    }
+}
