@@ -1,36 +1,39 @@
 import React, {useState, useEffect} from 'react'
 
 function ThemeComponent() {
-  const [selectedColor, setSelectedColor] = useState("#2c2c2c");
+  const [primaryColor, setPrimaryColor] = useState(localStorage.getItem('--primary-color') || "#2c2c2c")
+  const [secondaryColor, setSecondaryColor] = useState(localStorage.getItem('--secondary-color') || "#ffffff")
   const rootElement = document.querySelector('html')
 
   useEffect(() => {
-    rootElement.style.setProperty('--primary-color', selectedColor);
-  }, [selectedColor, rootElement])
+    rootElement.style.setProperty('--primary-color', primaryColor)
+    rootElement.style.setProperty('--secondary-color', secondaryColor)
+    localStorage.setItem('--primary-color', primaryColor)
+    localStorage.setItem('--secondary-color', secondaryColor)
+  }, [primaryColor, secondaryColor ,  rootElement])
+
+  const toggleThemeHandler = () => {
+    if(primaryColor === "#ffffff") {
+      setPrimaryColor("#2c2c2c")
+      setSecondaryColor("#ffffff")
+      return
+    }
+    setPrimaryColor("#ffffff")
+    setSecondaryColor("#2c2c2c")
+  }
 
   return (
     <>
       <div className="theme-box"
-        style={{ background: selectedColor }}
+        style={{ background: secondaryColor }}
       >
-        <input 
-          style={{opacity: 0}}
-          id="theme-box-input" 
-          value={selectedColor} 
-          type="color" 
-          onChange={e => setSelectedColor(e.target.value)}
-        />
+        <span 
+          onClick={toggleThemeHandler}
+          id="theme-box-input"
+        >
+          { primaryColor === "#ffffff" ? '🌜' : '🌞' }
+        </span>
       </div>
-
-      {/* <div 
-        htmlFor="themeColor"
-        className="theme-box"
-        style={{
-          background: selectedColor
-        }}
-      >
-      <input id="themeColor" style={{opacity: .4, zIndex: '-100'}} type="color" value={selectedColor} onChange={e => setSelectedColor(e.target.value)}/>
-      </div> */}
     </>
   )
 }

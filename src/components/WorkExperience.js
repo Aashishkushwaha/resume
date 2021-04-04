@@ -1,9 +1,10 @@
 import React from 'react'
+import PrimaryHeading from './PrimaryHeading'
 
 const WorkExperience = ({data}) => {
     return (
         <div className="section">
-            <h2 className="primary-heading border-b-2 highlight">Work Experience</h2>
+            <PrimaryHeading title="Work Experience" />
             {
                 data.map((item, index) => (
                     <div key={index} className="experience-info">
