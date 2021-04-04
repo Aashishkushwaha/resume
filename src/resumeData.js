@@ -5,8 +5,8 @@ export const RESUME_DATA = {
         address: "Rathi Complex, Sukhsagar Nagar, Pune - 411046",
         contact: "+91 - 7709609778",
         selfInfo: `
-            3.3+ years experienced Senior Software Engineer highly skilled in software development. Hightly motivated, optimist, team player & an 
-            indivisual contributor. Across the complete development life cycle of a product. Adept at end to end software design & 
+            3.4 years experienced Senior Software Engineer highly skilled in software development. Hightly motivated, optimist, team player & an 
+            individual contributor. Across the complete development life cycle of a product. Adept at end to end software design & 
             development including requirement gathering, documentation, infrastructure setup, coding & unit & integration testing. 
             Handles complex project management & coordination work very efficiently to deliver results. 
         `
@@ -18,7 +18,7 @@ export const RESUME_DATA = {
             endDate: "Present",
             location: "Pune",
             experienceInfo: [
-                'Worked as a frontend developer on multiple projects, Contributed to the project as an induvisual as well as a team player.',
+                'Worked as a frontend developer on multiple projects, Contributed to the project as an individual as well as a team player.',
                 'Used reactjs javascript library to createy hightly interactive user interfaces.',
                 'Leveraged the knowledge of modern technologies to deliver the product as per the business requirement.',
                 'Used the reduxjs library for maintaining the state of the project.',
