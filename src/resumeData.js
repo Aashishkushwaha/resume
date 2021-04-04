@@ -44,7 +44,7 @@ export const RESUME_DATA = {
     ],
     skillsInfo: {
         'Programming Languages': [ 'JavaScript', 'Core Java', 'C', 'C++' ],
-        'Libraries/Frameworks': [ 'Reactjs', 'jQuery', 'Node.js', 'Express.js' ],
+        'Libraries/Frameworks': [ 'Reactjs', 'Redux', 'React-Router', 'jQuery', 'Node.js', 'Express.js' ],
         'Databases': [ 'MongoDB', 'PostgreSQL' ],
         'OS': [ 'Mac OS', 'Windows', 'Linux' ],
         'Version Control': ['Git', 'Github'],
@@ -84,7 +84,7 @@ export const RESUME_DATA = {
             'Date of Birth': '09/04/1998',
             'Gender': 'Male',
             'Alternate Mobile No.': '+91 - 9561290345',
-            'Hobbies': 'Coding, Listening Music, Playing Cricket',
+            'Hobbies': 'Coding, Listening to Music, Playing Cricket',
             'Languages': 'English, Hindi'
         }
     }
