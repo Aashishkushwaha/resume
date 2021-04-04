@@ -19,12 +19,12 @@ export const RESUME_DATA = {
             location: "Pune",
             experienceInfo: [
                 'Worked as a frontend developer on multiple projects, Contributed to the project as an individual as well as a team player.',
-                'Used reactjs javascript library to createy highly interactive user interfaces.',
+                'Used react.js javascript library to create highly interactive user interfaces.',
                 'Leveraged the knowledge of modern technologies to deliver the product as per the business requirement.',
                 'Used the reduxjs library for maintaining the state of the project.',
                 'Used the Material-UI library for the solution for creating the responsive & interactive User Interface.',
-                'Created end to end MERN application with using node.js and expressjs technologies.',
-                'Worked on the requirements such as creating Admin Panel, Intractive websites etc.'
+                'Created end to end MERN application with using node.js and express.js technologies.',
+                'Worked on the requirements such as creating Admin Panel, Interactive websites etc.'
             ] 
         },
         {
@@ -34,7 +34,7 @@ export const RESUME_DATA = {
             location: "Pune",
             experienceInfo: [
                 'Got trained on python fundamentals & OOPS concepts.',
-                'Used javascript & jQuery to createy highly interactive user interfaces.',
+                'Used javascript & jQuery to create highly interactive user interfaces.',
                 'Leveraged the knowledge of modern technologies to deliver the product as per the business requirement.',
                 'Learned the reactjs library to create highly performant & interactive User Interface.',
                 'Used HTML5, CSS3 & Responsive Web Design to create fluid UI.',
