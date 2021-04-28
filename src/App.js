@@ -1,3 +1,4 @@
+import DownloadResume from './components/DownloadResume'
 import EducationalInfo from './components/EducationalInfo'
 import HeaderComponent from './components/HeaderComponent'
 import HonorsAndAchievements from './components/HonorsAndAchievements'
@@ -13,6 +14,7 @@ const App = () => {
   return (
     <main>
       <ThemeComponent />
+      <DownloadResume />
       <HeaderComponent data={self}/>
       <WorkExperience data={workExperience}/>
       <SkillsInfo data={skillsInfo}/>

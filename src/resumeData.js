@@ -4,6 +4,7 @@ export const RESUME_DATA = {
         email: "aashishk1997@gmail.com",
         address: "Rathi Complex, Sukhsagar Nagar, Pune - 411046",
         contact: "+91 - 7709609778",
+        jobRole: "Frontend Developer",
         selfInfo: `
             3.4 years experienced Senior Software Engineer highly skilled in software development. highly motivated, optimist, team player & an 
             individual contributor. Across the complete development life cycle of a product. Adept at end to end software design & 

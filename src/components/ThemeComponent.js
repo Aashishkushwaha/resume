@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 
-function ThemeComponent() {
+const ThemeComponent = () => {
   const [primaryColor, setPrimaryColor] = useState(localStorage.getItem('--primary-color') || "#2c2c2c")
   const [secondaryColor, setSecondaryColor] = useState(localStorage.getItem('--secondary-color') || "#ffffff")
   const rootElement = document.querySelector('html')
@@ -24,7 +24,7 @@ function ThemeComponent() {
 
   return (
     <>
-      <div className="theme-box"
+      <div className="theme-box" title="change theme"
         style={{ background: secondaryColor }}
       >
         <span 

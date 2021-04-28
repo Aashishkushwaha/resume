@@ -59,7 +59,11 @@ main {
 
 .skill-item {
   border: 1px solid var(--primary-color);
-  /* background: linear-gradient(to right, rgba(44, 44, 44,.4), rgba(439,239,239,.2)); */
+}
+
+.job-role {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
 }
 
 .title-primary {
@@ -220,27 +224,45 @@ main {
 }
 
 .theme-box {
-  height: 40px;
   width: 40px;
-  border: 2px solid var(--secondary-color);
-  position: fixed;
-  bottom: 1.6rem;
+  height: 40px;
   right: 1.6rem;
-  border-radius: 50%;
+  bottom: 1.6rem;
+  position: fixed;
   cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-color);
   box-shadow: 0 0 2px 2px var(--primary-color);
 }
 .theme-box #theme-box-input {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
   top: 50%;
   left: 50%;
   height: 100%;
   width: 100%;
-  transform: translate(-50%, -50%);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+}
+
+.resume-download {
+  position: fixed;
+  bottom: 5rem;
+  right: 1.6rem;
+  width: 2.5rem;
+  display: flex;
+  height: 2.5rem;
+  padding: .8rem;
+  font-size: 1.25rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0 0 2px 2px var(--primary-color);
 }
 
 @media screen and (max-width: 600px) {

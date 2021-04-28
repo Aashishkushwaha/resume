@@ -4,7 +4,7 @@ import PrimaryHeading from './PrimaryHeading'
 const SkillsInfo = ({data}) => {
     return (
         <div className="section">
-            <PrimaryHeading title="Techincal Skills" />
+            <PrimaryHeading title="Technical Skills" />
             <ul className="skills-list">
                 {
                     Object.entries(data)?.map(([key, value]) => (
