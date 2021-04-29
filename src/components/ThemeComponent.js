@@ -16,11 +16,19 @@ const ThemeComponent = () => {
     if(primaryColor === "#ffffff") {
       setPrimaryColor("#2c2c2c")
       setSecondaryColor("#ffffff")
+      
       return
     }
     setPrimaryColor("#ffffff")
     setSecondaryColor("#2c2c2c")
+    
   }
+
+  useEffect(() => {
+    if(primaryColor === "#ffffff")
+      return document.getElementById("favicon").href = "favicon_dark.ico"
+    document.getElementById("favicon").href = "favicon_light.ico"
+  }, [primaryColor])
 
   return (
     <>
